@@ -1,0 +1,116 @@
+{
+	"defaultSeverity": "error",
+	"extends": "tslint:all",
+	"rules": {
+		"file-name-casing": [
+			true,
+			"kebab-case"
+		],
+		"max-line-length": [
+			true,
+			120
+		],
+		"cyclomatic-complexity": [
+			true,
+			10
+		],
+		"linebreak-style": [
+			true,
+			"LF"
+		],
+		"max-classes-per-file": [
+			true,
+			1
+		],
+		"max-file-line-count": [
+			true,
+			400
+		],
+		"prefer-const": [
+			true,
+			{
+				"destructuring": "any"
+			}
+		],
+		"ban-types": [
+			true,
+			[
+				"Object",
+				"Use {} instead."
+			],
+			[
+				"String",
+				"Use string instead."
+			],
+			[
+				"Number",
+				"Use number instead."
+			],
+			[
+				"Boolean",
+				"Use boolean instead."
+			]
+		],
+		"member-access": [
+			true,
+			"check-accessor",
+			"check-constructor",
+			"check-parameter-property"
+		],
+		"no-import-side-effect": [
+			true,
+			{
+				"ignore-module": "(\\.html|\\.css)$"
+			}
+		],
+		"indent": [
+			true,
+			"tabs"
+		],
+		"object-literal-sort-keys": false,
+		"trailing-comma": [
+			false,
+			{
+				"multiline": {
+					"objects": "always",
+					"arrays": "always",
+					"functions": "never",
+					"typeLiterals": "ignore"
+				},
+				"esSpecCompliant": true
+			}
+		],
+		"member-ordering": [
+			true,
+			{
+				"order": [
+					"public-static-field",
+					"public-static-method",
+					"protected-static-field",
+					"protected-static-method",
+					"private-static-field",
+					"private-static-method",
+					"public-instance-field",
+					"protected-instance-field",
+					"private-instance-field",
+					"public-constructor",
+					"protected-constructor",
+					"private-constructor",
+					"public-instance-method",
+					"protected-instance-method",
+					"private-instance-method"
+				]
+			}
+		],
+		"no-null-keyword": false,
+		"no-default-export": false,
+		"comment-format": false,
+		"newline-per-chained-call": false,
+		"typedef": false,
+		"prefer-function-over-method": false,
+		"completed-docs": true,
+		"no-unsafe-any": false,
+		"no-unnecessary-class": [true, "allow-static-only"]
+	},
+	"rulesDirectory": []
+}

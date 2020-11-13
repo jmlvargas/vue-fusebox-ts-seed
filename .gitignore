@@ -1,0 +1,11 @@
+/.idea
+/node_modules
+/.fusebox
+dist
+*.map
+/test
+/coverage
+*.sublime-project
+*.sublime-workspace
+yarn-error.log
+/nbproject/private/
